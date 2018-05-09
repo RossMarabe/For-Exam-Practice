@@ -25,7 +25,7 @@ BRANCHES
   O -> 1st commit "Added hello.txt"
   |
   O -> 2nd commit "added another.txt"
-  |
+  |ls;f,wemflwesdfwekf,
   O -> 3rd commit
    \  Feature Branch
     \
