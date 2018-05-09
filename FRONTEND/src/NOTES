@@ -1,0 +1,13 @@
+ReactJS
+
+Routing, Consuming web services
+
+movie-server (find, add, delete) - ExpressJS
+
+app.get(<endpoint>, handler)
+
+movie-app - ReactJS
+
+Will connect front-end (movie-app) to back-end (movie-server)
+
+npm install --save react-router react-router-dom
