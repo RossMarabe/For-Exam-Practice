@@ -19,7 +19,7 @@ CONFIG
  2. You already have a remote repository with files
 
 
-BRANCHES Ako po si ross fiel
+BRANCHES Ako po si ross fiel na cute
   
   Master Branch
   O -> 1st commit "Added hello.txt"
