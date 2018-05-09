@@ -1,0 +1,63 @@
+Git - the tech
+GitHub - the website
+
+Working alone
+ 1. You have a local repository with files
+  - git init
+  - git remote add <remote name> <remote URL>
+
+  git remote -v (list remote repos)
+
+  STAGE git add -A
+  COMMIT git commit -m "<commit message>"
+  PUSH git push <remote name> <branch name>
+
+CONFIG
+  git config --global user.email "<email>"
+  git config --global user.name "<your name>"
+
+ 2. You already have a remote repository with files
+
+
+BRANCHES
+  
+  Master Branch
+  O -> 1st commit "Added hello.txt"
+  |
+  O -> 2nd commit "added another.txt"
+  |
+  O -> 3rd commit
+   \  Feature Branch
+    \
+     O -> experimental feature
+     |
+     O -> 2nd exp feature
+
+git branch - list branches
+git branch <name> - create branch
+git checkout - switch branch
+
+Default branch is always called Master
+Never code in Master. Code new features in new branches (Best practice)
+
+MERGE
+  (target branch, source branch)
+ git merge <source>
+ (can keep coding after, or push directly to GitHub)
+
+Working as a group
+
+  1. Fork Main repo
+  2. Clone the fork
+  3. Follow standard workflow
+   - work inside feature branches, not in master branch
+   - Stage, Commit, Push
+  
+  When features are stable, create Pull Request
+
+  To sync Upstream Master with Local Master:
+
+  1. git fetch upstream
+  2. git rebase upstream/master
+     git rebase <remote name of source>/<branch name of source>
+     (execute this command while in the target branch)
